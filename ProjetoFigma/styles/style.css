@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+
+}
+
+.titulo {
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+
+}
+
+.texto {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F6F6F6;
+
+}
+
+.enph {
+
+    color: #22D4FD
+
+}
+
+.apresentacao {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 15%;
+
+}
+
+.conteudo {
+
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.links {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: 2px solid #22D4FD;
+    width: 378px;
+    border-radius: 8px;
+
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: #F6F6F6;
+    font-family: 'Montserrat';
+    text-decoration: none;
+
+}
+
+.bt_logo {
+    padding: 0 16px;
+}
+
+.imagens {
+
+    width: 488px;
+    height: 550px;
+
+}
+
+.frame {
+
+    border: 3px solid #22D4FD;
+    border-radius: 16px;
+
+    width: 466px;
+    height: 526px;
+
+    margin-top: -18px;
+    margin-left: 20px;
+
+}
+
+
+.imagem-autor {
+
+    position: absolute;
+    width: 467px;
+    height: 532px;
+    border-radius: 16px;
+
+    background: url();
+
+}
+
+.header {
+
+    padding: 2% 0% 0% 15%;
+
+}
+
+.hd_menu_links {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+
+    text-decoration: none;
+
+}
+
+.hd_menu {
+
+    gap: 80px;
+    display: flex;
+
+}
+
+.subt {
+
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    size: 24px;
+
+}
+
+.links:hover {
+
+    background-color: #272727;
+
+}
+
+.footer {   
+
+    color:#000000;
+    background-color: #22D4FD;
+    padding: 23px;
+    text-align: center;
+    font-family:'Montserrat',sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+
+}
